@@ -7,7 +7,7 @@
   </head>
   <body>That's your theme:
     <?php
-    header('Content-Type: text/plain');
+    //header('Content-Type: text/plain');
     print_r($_GET);
     echo "\n\n";
     $COLOR_GRAY = $_GET["main_color"];
@@ -18,16 +18,23 @@
     echo "\n\n";
     echo "Copy This inside your theme_name.tdesktop-theme file";
     include 'model.php';
-    echo $model_theme;
+    //echo $model_theme;
     echo "\n\n";
     echo "Stop copying before this line!";
-
+    echo "\n\n";
     // File Maker //
-    $theme_name = $_GET["name"]
-    if (!file_exists("themes\\".$qname)) {
-          mkdir("quotes\\".$qname, 0777, true);
-    };
-
-     ?>
+    $theme_name = $_GET["name"];
+    $dir = "themes\\".$theme_name.".tdesktop-theme";
+    if (!file_exists("themes\\".$theme_name))
+          {
+                mkdir("themes\\".$theme_name, 0777, true);
+          };
+    $link=$dir;
+    $fh = fopen($dir, 'w');
+    fwrite($fh, $model_theme);
+    fclose($fh);
+    echo "Open your file!: ";
+    echo "<br>"; ?>
+     <a href="download.php?link=<?php echo $link; ?>"> Download it!</a>";
   </body>
 </html>
