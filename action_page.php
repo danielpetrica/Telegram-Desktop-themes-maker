@@ -16,9 +16,18 @@
     $COLOR_GREEN_LIGHT = $_GET["green_light"];
     $COLOR_GREEN_RIPPLE_ACTIVE=$_GET["green_light_shadow"];
     echo "\n\n";
-
+    echo "Copy This inside your theme_name.tdesktop-theme file";
     include 'model.php';
     echo $model_theme;
+    echo "\n\n";
+    echo "Stop copying before this line!";
+
+    // File Maker //
+    $theme_name = $_GET["name"]
+    if (!file_exists("themes\\".$qname)) {
+          mkdir("quotes\\".$qname, 0777, true);
+    };
+
      ?>
   </body>
 </html>
