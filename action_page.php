@@ -3,7 +3,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>REsult Theme</title>
+    <title>Result Theme</title>
   </head>
   <style media="screen">
     body {
@@ -20,6 +20,9 @@
     $COLOR_GREEN_DARK = $_GET["accent_color_2"];
     $COLOR_GREEN_LIGHT = $_GET["green_light"];
     $COLOR_GREEN_RIPPLE_ACTIVE=$_GET["green_light_shadow"];
+    $textcolor=$_GET["textcolor"];
+    $msgInBg=$_GET["msgInBg"]
+
     echo "\n\n";
     echo "Copy This inside your theme_name.tdesktop-theme file";
     include 'model.php';
@@ -29,17 +32,20 @@
     echo "\n\n";
     // File Maker //
     $theme_name = $_GET["name"];
-    $dir = "themes\\".$theme_name.".tdesktop-theme";
-    if (!file_exists("themes\\".$theme_name))
+    $dir = "themes/".$theme_name."/".$theme_name.".tdesktop-theme";
+    if (!file_exists("themes/".$theme_name))
           {
-                mkdir("themes\\".$theme_name, 0777, true);
+                mkdir("themes/".$theme_name, 0777, true);
           };
     $link=$dir;
     $fh = fopen($dir, 'w');
     fwrite($fh, $model_theme);
     fclose($fh);
-    echo "Open your file!: ";
-    echo "<br>"; ?>
-     <a href="download.php?link=<?php echo $link; ?>"> Download it!</a>";
+    echo "<br>";
+    $file_name = $theme_name.".tdesktop-theme";
+
+
+     ?>
+     <a href="download.php?link=<?php echo $link."&name=".$file_name; ?>"> Download it!</a>";
   </body>
 </html>

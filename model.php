@@ -21,7 +21,7 @@ COLOR_GREEN_LIGHT: #$COLOR_GREEN_LIGHT; \r\n                    "./* Accent colo
 
 COLOR_GREEN_RIPPLE_ACTIVE: #$COLOR_GREEN_RIPPLE_ACTIVE;\r\n
 \r\n
-COLOR_WHITE: #ffffff;\r\n
+COLOR_WHITE: $textcolor;\r\n
 COLOR_BLACK: #000000;\r\n
 COLOR_PINK: #e016a0;\r\n                            "./* Just for testing purposes :)*/"
 
@@ -380,7 +380,7 @@ historyScrollBg: #6f72724d;       \r\n              "./* Scrollbar (history view
 historyScrollBgOver: #6f727280; \r\n                "./* Scrollbar (history view) current position background (hover)*/"
 
 \r\n
-msgInBg: #3d3c3c;             \r\n                  "./* Incoming message background*/"
+msgInBg: $msgInBg;             \r\n                  "./* Incoming message background*/"
 
 msgInBgSelected: #222323;      \r\n                 "./* Selected incoming message background*/"
 
