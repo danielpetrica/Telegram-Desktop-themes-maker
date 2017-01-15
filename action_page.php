@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <title>REsult Theme</title>
   </head>
+  <style media="screen">
+    body {
+      background: linear-gradient(166deg, #ff9900, #19a6a6);
+    }
+  </style>
   <body>That's your theme:
     <?php
     //header('Content-Type: text/plain');
