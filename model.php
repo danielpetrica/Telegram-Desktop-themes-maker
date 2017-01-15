@@ -384,7 +384,7 @@ msgInBg: $msgInBg;             \r\n                  "./* Incoming message backg
 
 msgInBgSelected: #222323;      \r\n                 "./* Selected incoming message background*/"
 
-msgOutBg: #464746;             \r\n                 "./* Outgoing message background*/"
+msgOutBg: $msgOutBg;             \r\n                 "./* Outgoing message background*/"
 
 msgOutBgSelected: #222323;      \r\n                "./* Selected outgoing message background*/"
 
@@ -449,7 +449,7 @@ msgFileOutBg: COLOR_GREEN_DARK;\r\n
 msgFileOutBgOver: #6bc272;\r\n
 msgFileOutBgSelected: #5fb389;\r\n
 \r\n
-msgFile1Bg: #72b1df;\r\n
+msgFile1Bg: $msgFile1Bg;\r\n
 msgFile1BgDark: #5c9ece;\r\n
 msgFile1BgOver: #5294c4;\r\n
 msgFile1BgSelected: #5099d0;\r\n

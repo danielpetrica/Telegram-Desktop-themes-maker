@@ -10,26 +10,66 @@
       <h1>Select the collors from the forms down here </h1>
       <br><br><br><br>
 
-      <form  method="get" action="action_page.php">
-        Select your theme name, please no space or special characters (use _ for spaces):
-      <input  class="text"  name="name" value="change_it"><br>
-           Select your Main color:
-      <input  class="jscolor"  name="main_color" value="#2f2f2f"><br>
-              Select your Accent color:
-      <input  class="jscolor" name="accent_color" value="#9e6e98"><br>
-      Select your Accent color #2 <br>
-      (Active button background (+ checkboxes background); <br>
-       Active input field line color (normal); <br>
-       Currently selected button background): <br>
-      <input  class="jscolor"  name="accent_color_2" value="#0d6dde"><br>
-      Select a color for Primary button background color (and active chat) - Press and hold  :
-      <input class="jscolor" name="green_light_shadow" value="#145d2b"><br>
-      Select a color for (Icons color on hover) :
-      <input class="jscolor" name="green_light" value="#8510a2"><br>
-      Select your text color:
-      <input class="jscolor" name="textcolor" value="#1c5063"><br>-->
-      select background for incoming messages:
-      <input type="color" name="msgInBg" value="#5b66c1">
+      <table>
+              <form  method="get" action="http://thememaker.site/app/action_page.php">
+              <tr>
+                <th>  Select your theme name, please no space or special characters (use _ for spaces):</th>
+                <th> <input  type="text"  name="name" value="change_it"><br>
+                </th>
+              </tr>
+              <tr>
+                <td> Select your Main color:</td>
+                <td><input  type="color"  name="main_color" value="#999999"><br></td>
+              </tr>
+              <tr>
+                <td>Select your Secondary color:</td>
+                <td><input  type="color" name="accent_color" value="#2f2f2f"><br></td>
+              </tr>
+              <tr>
+                <td>
+                  Select your third color
+                  (Active button background (+ checkboxes background)
+                  Active input field line color (normal)
+                  Currently selected button background)
+                </td>
+                <td><input  type="color"  name="accent_color_2" value="#008c00"></td>
+              </tr>
+              <tr>
+                <td> Select a color for Primary button background color (and active chat) - Press and hold  :</td>
+                <td><input type="color" name="green_light_shadow" value="#15cd7d"></td>
+              </tr>
+              <tr>
+                <td> Select a color for (Icons color on hover) :</td>
+                <td><input type="color" name="green_light" value="#025618"><br></td>
+              </tr>
+              <tr>
+                <td> Select your Texr Color:
+                </td>
+                <td> <input type="color" name="textcolor" value="#ffffff">
+                </td>
+              </tr>
+              <tr>
+                <td>Select the color for outgoing Messages bubble </td>
+                <td><input type="color" name="msgOutBg" value="#09f74b"></td>
+              </tr>
+              <tr>
+                <td>Select the color for incoming Messages bubble </td>
+                <td><input type="color" name="msgInBg" value="#09eaf7"></td>
+              </tr>
+              <tr>
+                <td>Select the color for incoming Messages bubble </td>
+                <td><input type="color" name="msgFile1Bg" value="#dbd908"></td>
+              </tr>
+
+
+
+
+              <tr>
+                <th>To <b>Create </b> your theme with the above colors:
+                </th>
+                <th> <input id="submit" type="submit"></h3>
+                </th>
+              </tr>
 
   <input type="submit">
 </form>

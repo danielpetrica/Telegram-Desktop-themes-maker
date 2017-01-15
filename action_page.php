@@ -21,7 +21,9 @@
     $COLOR_GREEN_LIGHT = $_GET["green_light"];
     $COLOR_GREEN_RIPPLE_ACTIVE=$_GET["green_light_shadow"];
     $textcolor=$_GET["textcolor"];
-    $msgInBg=$_GET["msgInBg"]
+    $msgInBg=$_GET["msgInBg"];
+    $msgOutBg=$_GET["msgOutBg"];
+    $msgFile1Bg=$_GET["msgFile1Bg"]
 
     echo "\n\n";
     echo "Copy This inside your theme_name.tdesktop-theme file";
