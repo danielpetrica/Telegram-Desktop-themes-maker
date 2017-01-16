@@ -15,3 +15,7 @@ WE have a working website at: [http://thememaker.site/](http://thememaker.site/)
 - [ ] Add more collors options
 - [ ] Zip file creation
 - [ ] Background?
+
+
+# special thanks:
+ -  [@MasterGroosha](https://github.com/MasterGroosha)  The theme model (witha very good explanation) is his creation.
