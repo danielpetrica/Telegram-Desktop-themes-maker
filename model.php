@@ -13,13 +13,13 @@
 //                                                                                              //
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-$model_theme="COLOR_GRAY: #$COLOR_GRAY;\r\n
-COLOR_DARK: #$COLOR_DARK;\r\n "./*Main color (dark one)*/"
-COLOR_GREEN_DARK: #$COLOR_GREEN_DARK;\r\n                      "./* Accent color*/"
+$model_theme="COLOR_GRAY: $secondary_color;\r\n
+COLOR_DARK: $main_color;\r\n "./*Main color (dark one)*/"
+COLOR_GREEN_DARK: $COLOR_GREEN_DARK;\r\n                      "./* Accent color*/"
 
-COLOR_GREEN_LIGHT: #$COLOR_GREEN_LIGHT; \r\n                    "./* Accent color #2 (just like first one with slight changes)*/"
+COLOR_GREEN_LIGHT: $COLOR_GREEN_LIGHT; \r\n                    "./* Accent color #2 (just like first one with slight changes)*/"
 
-COLOR_GREEN_RIPPLE_ACTIVE: #$COLOR_GREEN_RIPPLE_ACTIVE;\r\n
+COLOR_GREEN_RIPPLE_ACTIVE: $COLOR_GREEN_RIPPLE_ACTIVE;\r\n
 \r\n
 COLOR_WHITE: $textcolor;\r\n
 COLOR_BLACK: #000000;\r\n
