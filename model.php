@@ -13,6 +13,7 @@
 //                                                                                              //
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 $model_theme="COLOR_GRAY: $COLOR_GRAY;\r\n
 COLOR_DARK: $COLOR_DARK;\r\n "./*Main color (dark one)*/"
 COLOR_GREEN_DARK: $COLOR_GREEN_DARK;\r\n                      "./* Accent color*/"
