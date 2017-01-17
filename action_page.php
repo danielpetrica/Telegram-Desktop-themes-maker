@@ -13,14 +13,10 @@
   </style>
   <body>That's your theme:
     <?php
-    //header('Content-Type: text/plain');
-    //print_r($_GET); comented to prevent injection.
     echo "\n\n";
-    // Provides: <body text='black'>
-
     /*Colors Variables get*/
-    $COLOR_GRAY = $_GET["COLOR_GRAY"];
-    $COLOR_DARK= $_GET["COLOR_DARK"];
+    $COLOR_GRAY = $_GET["color_gray"];
+    $COLOR_DARK= $_GET["color_dark"];
     $COLOR_GREEN_DARK = $_GET["accent_color_2"];
     $COLOR_GREEN_LIGHT = $_GET["green_light"];
     $COLOR_GREEN_RIPPLE_ACTIVE=$_GET["green_light_shadow"];

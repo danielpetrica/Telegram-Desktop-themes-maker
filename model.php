@@ -14,8 +14,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-$model_theme="COLOR_GRAY: $COLOR_GRAY;\r\n
-COLOR_DARK: $COLOR_DARK;\r\n "./*Main color (dark one)*/"
+$model_theme="COLOR_GRAY: $color_gray;\r\n
+COLOR_DARK: $color_dark;\r\n "./*Main color (dark one)*/"
 COLOR_GREEN_DARK: $COLOR_GREEN_DARK;\r\n                      "./* Accent color*/"
 
 COLOR_GREEN_LIGHT: $COLOR_GREEN_LIGHT; \r\n                    "./* Accent color #2 (just like first one with slight changes)*/"
