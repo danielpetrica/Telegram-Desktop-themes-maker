@@ -6,28 +6,20 @@
     <meta name="description" content="From this page you can download your theme">
     <title>Result Theme</title>
   </head>
-  <style media="screen">
-    body {
-      background: linear-gradient(166deg, #ff9900, #19a6a6); 
-    }
-  </style>
   <body>That's your theme:
     <?php
     echo "\n\n";
     /*Colors Variables get*/
-    $COLOR_GRAY = $_GET["color_gray"];
-    $COLOR_DARK= $_GET["color_dark"];
-    $COLOR_GREEN_DARK = $_GET["accent_color_2"];
-    $COLOR_GREEN_LIGHT = $_GET["green_light"];
-    $COLOR_GREEN_RIPPLE_ACTIVE=$_GET["green_light_shadow"];
-    $textcolor=$_GET["textcolor"];
-    $msgInBg=$_GET["msgInBg"];
-    $msgOutBg=$_GET["msgOutBg"];
-    $msgFile1Bg=$_GET["msgFile1Bg"]
+    $color_gray = $_POST["color_gray"];
+    $color_dark= $_POST["color_dark"];
+    $COLOR_GREEN_DARK = $_POST["accent_color_2"];
+    $COLOR_GREEN_LIGHT = $_POST["green_light"];
+    $COLOR_GREEN_RIPPLE_ACTIVE=$_POST["green_light_shadow"];
+    $textcolor=$_POST["textcolor"];
+    $msgInBg=$_POST["msgInBg"];
+    $msgOutBg=$_POST["msgOutBg"];
+    $msgFile1Bg=$_POST["msgFile1Bg"];
 
-    /*The comented code down here existed just for testing purpose*/
-    //echo "\n\n";
-    //echo "Copy This inside your theme_name.tdesktop-theme file";
     include 'model.php';
     //echo $model_theme;
     //echo "\n\n";
@@ -37,7 +29,7 @@
     /*
     created to prevent path injections
     */
-    $theme_name = str_replace("/", "_badyou_", $_GET["name"]); //contains the good themename
+    $theme_name = str_replace("/", "_badyou_", $_POST["name"]); //contains the good themename
     $dir = "themes/".$theme_name."/".$theme_name.".tdesktop-theme"; //theme directory
     /* IF theme folder doesn't exist it creates it */
     if (!file_exists("themes/".$theme_name))
