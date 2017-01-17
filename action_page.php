@@ -19,8 +19,8 @@
     // Provides: <body text='black'>
 
     /*Colors Variables get*/
-    $COLOR_GRAY = $_GET["secondary_color"];
-    $main_color= $_GET["main_color"];
+    $COLOR_GRAY = $_GET["COLOR_GRAY"];
+    $COLOR_DARK= $_GET["COLOR_DARK"];
     $COLOR_GREEN_DARK = $_GET["accent_color_2"];
     $COLOR_GREEN_LIGHT = $_GET["green_light"];
     $COLOR_GREEN_RIPPLE_ACTIVE=$_GET["green_light_shadow"];
