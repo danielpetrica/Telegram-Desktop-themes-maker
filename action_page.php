@@ -8,7 +8,7 @@
   </head>
   <style media="screen">
     body {
-      background: linear-gradient(166deg, #ff9900, #19a6a6);
+      background: linear-gradient(166deg, #ff9900, #19a6a6); 
     }
   </style>
   <body>That's your theme:

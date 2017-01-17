@@ -1,7 +1,7 @@
 <?php
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-//                            Telegram Theme based on :                                         //
+//                            Telegram Theme based on                                       //
 //                          SolidDark theme v1.1 for Telegram Desktop.                          //
 //                                                                                              //
 //                                                                                              //
