@@ -14,11 +14,11 @@
 
 $model_theme="COLOR_GRAY: $color_gray;\r\n
 COLOR_DARK: $color_dark;\r\n "./*Main color (dark one)*/"
-COLOR_GREEN_DARK: $COLOR_GREEN_DARK;\r\n                      "./* Accent color*/"
+COLOR_GREEN_DARK: $color_green_dark;\r\n                      "./* Accent color*/"
 
-COLOR_GREEN_LIGHT: $COLOR_GREEN_LIGHT; \r\n                    "./* Accent color #2 (just like first one with slight changes)*/"
+COLOR_GREEN_LIGHT: $color_green_light; \r\n                    "./* Accent color #2 (just like first one with slight changes)*/"
 
-COLOR_GREEN_RIPPLE_ACTIVE: $COLOR_GREEN_RIPPLE_ACTIVE;\r\n
+COLOR_GREEN_RIPPLE_ACTIVE: $color_green_ripple_active;\r\n
 \r\n
 COLOR_WHITE: $textcolor;\r\n
 COLOR_BLACK: #000000;\r\n

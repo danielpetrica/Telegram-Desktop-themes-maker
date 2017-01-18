@@ -12,9 +12,9 @@
     /*Colors Variables get*/
     $color_gray = $_POST["color_gray"];
     $color_dark= $_POST["color_dark"];
-    $COLOR_GREEN_DARK = $_POST["accent_color_2"];
-    $COLOR_GREEN_LIGHT = $_POST["green_light"];
-    $COLOR_GREEN_RIPPLE_ACTIVE=$_POST["green_light_shadow"];
+    $color_green_dark = $_POST["color_green_dark"];
+    $COLOR_GREEN_LIGHT = $_POST["color_green_light"];
+    $COLOR_GREEN_RIPPLE_ACTIVE=$_POST["color_green_ripple_active"];
     $textcolor=$_POST["textcolor"];
     $msgInBg=$_POST["msgInBg"];
     $msgOutBg=$_POST["msgOutBg"];
