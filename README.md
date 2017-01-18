@@ -17,6 +17,6 @@ WE have a working website at: [http://thememaker.site/](http://thememaker.site/)
 
 ## Releases
 - [x] *v0.01* A first release is out! I can't believe it! Try it : [0.01 Alpha Release](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/releases/tag/0.01 "0.01 First Alpha Release")
-- [ ] From first to second release will deleting the first zero.
-- [ ] *v0.15* Some security updates (no more path injection risk)
+- [x] From first to second release will deleting the first zero.
+- [x] *v0.15* Some security updates (no more path injection risk)
 - [ ] *v0.2*  Colors list; Send to telegram channel option; more colors.
