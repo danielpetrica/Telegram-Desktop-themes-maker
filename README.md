@@ -10,9 +10,9 @@ WE have a working website at: [http://thememaker.site/](http://thememaker.site/)
 ## Roadmap
 - [x] Get theme creation & downloading working (v0.01)
 - [x] Public Website find it at: [http://thememaker.site/](http://thememaker.site/)
-- [ ] Add the "send to telegram channel" feature ( will arrive on version 0.2)
-- [ ] Zip file creation
-- [ ] Background?
+- [ ] Add the "send to telegram channel" feature ( will arrive on version 0.25) 
+- [x] Zip file creation
+- [x] Background?
 - [ ] Add more collors options Will finish only when all colors have an option.
 
 ## Releases
