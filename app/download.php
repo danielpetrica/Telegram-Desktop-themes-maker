@@ -1,6 +1,6 @@
 <?php
-$link=$_GET["link"];
-$name=$_GET["name"];
+$link=$_POST["link"];
+$name=$_POST["name"];
 // We'll be outputting a .tdesktop-theme
 header('Content-Type: application/.tdesktop-theme');
 
@@ -11,4 +11,3 @@ header('Content-Disposition: attachment; filename= "'.$name.'"');
 readfile($link);
 
  ?>
- 

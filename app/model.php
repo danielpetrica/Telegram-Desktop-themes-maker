@@ -270,7 +270,7 @@ dialogsUnreadBgOver: dialogsUnreadBg;\r\n
 dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;\r\n
 dialogsUnreadFgOver: dialogsUnreadFg;\r\n
 \r\n
-dialogsBgActive: #008000;    \r\n                   "./* Active chat color (in chats list)*/"
+dialogsBgActive: $dialogsBgActive;    \r\n                   "./* Active chat color (in chats list)*/"
 
 dialogsNameFgActive: COLOR_WHITE;\r\n
 dialogsChatIconFgActive: dialogsNameFgActive;\r\n
