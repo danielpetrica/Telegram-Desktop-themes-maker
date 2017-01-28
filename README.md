@@ -1,4 +1,6 @@
 # Telegram-Desktop-themes-maker
+[![Code Triagers Badge](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker/badges/users.svg)](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker)
+
 A first try on creating a Useful theme maker for [Telegram.org](https://telegram.org/).
  Help, suggestions and questions are welcome.
 The program is designed to work on you own server or **xampp** ( [xampp site](https://www.apachefriends.org/it/index.html) )
