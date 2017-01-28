@@ -11,18 +11,7 @@
     <?php
     echo "\n\n";
     /*Colors Variables get*/
-    $color_gray = $_POST["color_gray"];
-    $color_dark= $_POST["color_dark"];
-    $color_green_dark = $_POST["color_green_dark"];
-    $color_green_light = $_POST["color_green_light"];
-    $color_green_ripple_active=$_POST["color_green_ripple_active"];
-    $textcolor=$_POST["textcolor"];
-    $msgInBg=$_POST["msgInBg"];
-    $msgOutBg=$_POST["msgOutBg"];
-    $msgFile1Bg=$_POST["msgFile1Bg"];
-    $dialogsBgActive=$_POST["dialogsBgActive"];
-    $menuBg = $_POST["menuBg"];
-    $img_link = $_POST["img_input_image"];
+    include 'data_get.php';
     include 'model.php';
 
     /*
@@ -49,65 +38,6 @@
 
     $content = file_get_contents($img_link);
 
-
-  /*  $file_parts = pathinfo($img_link);
-    switch($file_parts['extension'])
-    {
-        case "jpg":
-        echo "<p>Inserted a jpg file</p>";
-        $img_position = "themes/".$theme_name."/background.jpg";
-        $f_extension = ".jpg";
-        break;
-
-        case "jpeg":
-        echo "<p>Inserted a jpeg file</p>";
-        $img_position = "themes/".$theme_name."/background.jpeg";
-        $f_extension = ".jpeg";
-        break;
-        case "png":
-        echo "<p>Inserted a png file</p>";
-        $img_position = "themes/".$theme_name."/background.png";
-        $f_extension = ".png";
-        break;
-        case "gif":
-        echo "<p>Inserted a gif file</p>";
-        $img_position = "themes/".$theme_name."/background.gif";
-        $f_extension = ".gif";
-        break;
-
-        case "": // Handle file extension for files ending in '.'
-        echo "empty file extension \n\n";
-        break;
-        case NULL: // Handle no file extension
-        echo "null imput\n\n";
-        break;
-        default
-        echo "Default option \n\n";
-    };    */
-
-
-/*
-          // Code assumes necessary extensions are installed and a successful file upload has already occurred
-
-          // Create a FileInfo object
-          $finfo = new FileInfo(null, '/path/to/magic/file');
-
-          // Determine the MIME type of the uploaded file
-          switch ($finfo->file($_FILES['image']['tmp_name'], FILEINFO_MIME)) {
-              case 'image/jpg':
-                  $im = imagecreatefromjpeg($_FILES['image']['tmp_name']);
-              break;
-
-              case 'image/png':
-                  $im = imagecreatefrompng($_FILES['image']['tmp_name']);
-              break;
-
-              case 'image/gif':
-                  $im = imagecreatefromgif($_FILES['image']['tmp_name']);
-              break;
-          }
-*/
-
     $img_position = "themes/".$theme_name."/background.jpg";
     file_put_contents($img_position, $content);
 
@@ -129,6 +59,10 @@
 
 
     /*end of php block*/?>
+    <div>
+      <h3>Simple Theme Preview</h3>
+      <img src="image.php" alt="Simple theme preview">
+    </div>
     <table>
       <tr>
         <td>Download just the colors file. </td>
