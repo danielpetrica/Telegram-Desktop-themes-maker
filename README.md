@@ -4,26 +4,14 @@
 ### A first try on creating a Useful theme maker for [Telegram.org](https://telegram.org/).
 # Help, suggestions and questions are welcome.
 
-The program is designed to work on you own server or **xampp** ( [xampp site](https://www.apachefriends.org/it/index.html) )
-
-To use on your own server please doenload one of the releases (The last is better), and unzip on your server. Trying to run the master branch it's a very bad idea, it may contain bugs or non finished features.
+## Visit The wiki for more informations: [WIki](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki)
 
 We have a channel on Telegram for Updates, and comunicattions [thememaker](https://t.me/thememaker) 
 
 We have a working website at: [http://thememaker.site/](http://thememaker.site/) It's free to use for everyone!
 
-## Roadmap
-- [x] Get theme creation & downloading working (v0.01)
-- [x] Public Website find it at: [http://thememaker.site/](http://thememaker.site/) 
-- [x] Zip file creation
-- [x] Background (For now just jpg)
-- [ ] Add more collors options Will finish only when all colors have an option.
-- [ ] Add the "send to telegram channel" feature ( will arrive on version 0.25)
-- [ ] Add a Theme preview before download
-- [ ] Create an "expert" mode for editing all fields
-- [ ] Prepare the project for translation
-- [ ] Check the English language
-- [ ] Translate to: Italian; Romanian; and other languages proposed
+#### For Installing instructions visit the wiki page [wiki: Intalling](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Installing)
+#### For the roadmap visit the wiki page [wiki: Roadmap](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Roadmap)
 
 
 ## Releases
