@@ -54,14 +54,14 @@
     echo "<br>";
     echo "status:" . $zip->status . "\n";
     echo "<br>";
-    print_r($zip);
+    //çprint_r($zip);
     $zip->close();
 
 
     /*end of php block*/?>
     <div>
       <h3>Simple Theme Preview</h3>
-      <img src="image.php" alt="Simple theme preview">
+      <img src="<?php echo'image_model.php?'.http_build_query($_POST);?>" alt="Simple theme preview">
     </div>
     <table>
       <tr>
