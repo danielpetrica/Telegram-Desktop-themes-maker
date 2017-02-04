@@ -19,5 +19,6 @@ We have a working website at: [http://thememaker.site/](http://thememaker.site/)
 - [x] From first to second release will deleting the first zero.
 - [x] *v0.15* Some security updates (no more path injection risk).
 - [x] *v0.2* Zip compression, background upload, more colors.
-- [ ] *v0.25* Colors list; Theme Preview; more colors.
-- [ ] *v0.3* Expert mode ready
+- [x] *v0.25* Expert mode ready. We support all elements!
+- [ ] *v0.3*  Colors list
+- [ ] *v0.4*  Theme Preview.
