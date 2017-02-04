@@ -1,5 +1,4 @@
 <?php
-$array_data = array('dim' => 386);
 $arr_en[]=array( 'name' => 'windowBg',		'color'=> '#ffffff',		'desc' => ' white fallback for background');
 $arr_en[]=array( 'name' => 'windowFg',		'color'=> '#000000',		'desc' => ' black fallback for text');
 $arr_en[]=array( 'name' => 'windowBgOver',		'color'=> '#f1f1f1',		'desc' => ' light gray fallback for background with mouse over');

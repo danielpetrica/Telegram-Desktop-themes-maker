@@ -42,14 +42,14 @@
 
      <div class="container">
                  <div class="row" style="padding-top: 60px; padding-bottom: 30px;">
-                   <h1 class="text-center title">{{ header.title }}</h1>
+                   <h1 class="text-center title">Telegram Theme Maker Site Expert Version</h1>
                    <h2 class="text-center">Thememaker.site The first telegram themes maker</h2>
                  </div>
     <h3>Select the colors from the forms down here </h3>
     <br><br>
     <div class="row">
     <table align="left">
-            <form  method="post" action="app/action_expert.php">
+            <form  method="post" action="action_expert.php">
               <tr>
                 <th>  Select your theme name, please no space or special characters (use _ for spaces):</th>
                 <th> <input  type="text"  name="name" value="type_a_name"><br>
@@ -58,12 +58,7 @@
               <?php
               include 'theme_array_model.php';
               foreach ($arr_en as $key => $value) {
-                    echo
-                    "\n<tr>\n
-                      <td>select your $key['name']</td>\n
-                      <td><input  type=\"color\"  name=\"$key['name']\" value=\"$key['color']\"></td>\n
-                      <td>$key['desc']</td>\n
-                    </tr>\n";
+                    echo "\n<tr>\n<td>select your ".$value['name']."</td>\n<td><input  type=\"color\"  name=\"".$value['name']."\" value=\"".$value['color']."\"></td>\n <td>".$value['desc']."</td>\n</tr>\n";
               };
                ?>
           <input type="submit">

@@ -1,4 +1,5 @@
 <?php
+$img_link=$_POST['img_input_image'];
 $arr_en[0]["color"]=  $_POST["windowBg"];
 $arr_en[1]["color"]=  $_POST["windowFg"];
 $arr_en[2]["color"]=  $_POST["windowBgOver"];

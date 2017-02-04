@@ -11,8 +11,9 @@
     <?php
     echo "\n\n";
     /*Colors Variables get*/
+    include 'theme_array_model.php';
     include 'expert_POST.php';
-    include 'export_theme.php';
+    include 'expert_theme.php';
 
     /*
     created to prevent path injections
@@ -29,12 +30,9 @@
     $link = $dir; /*Get's the link to the theme for the download link*/
 
     /*open the theme, if a theme with the same name exists
-    it cancel it and write the new theme created with model.php*/
-    if (file_exists($dir)) {
-      # code...
-    }
+    it cancel it and write the new theme created with expert_theme.php*/
     $fh = fopen($dir, 'w');
-    fwrite($fh, $model_theme);
+    fwrite($fh, $expert_theme);
     fclose($fh);
     echo "<br>";
 
