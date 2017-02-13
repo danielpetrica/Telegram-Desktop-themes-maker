@@ -1,5 +1,10 @@
 # Telegram-Desktop-themes-maker
-[![Code Triagers Badge](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker/badges/users.svg)](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker)
+
+[![Code Triagers Badge](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker/badges/users.svg)](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker) 
+
+[![GitHub stars](https://img.shields.io/github/stars/danielpetrica/Telegram-Desktop-themes-maker.svg?style=flat-square)](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/stargazers)
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/danielpetrica/Telegram-Desktop-themes-maker/master/LICENSE)
 
 ### A first try on creating a Useful theme maker for [Telegram.org](https://telegram.org/).
 # Help, suggestions and questions are welcome.
