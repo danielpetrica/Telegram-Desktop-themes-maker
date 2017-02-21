@@ -1,3 +1,11 @@
 *.tdesktop-theme
-app/themes/*
-app/exp_themes/*
+Web_version/app/themes/*
+Web_version/app/exp_themes/*
+Desktop_version/app/themes/*
+Desktop_version/app/exp_themes/*
+temp_files/*
+*background.jpg
+*config.php
+Desktop_version/webcache/*
+Desktop_version/webcache/GPUCache/*
+*.log

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Page</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meshki/1.4.2/meshki.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/meshki/1.4.2/meshki.min.js"></script>
+
+  </head>
+  <body>
+      <!--script src="jscolor.js"></script> had some issues with jscolors-->
+      <div class="sidenav push">
+        <a href="javascript:void(0);" class="sidenav-close-button" onclick="meshki.closeNav()">×</a>
+          <a href="simple_start.html">Simple Generator</a>
+          <a href="expert_start.php">Expert Generator</a>
+          <a href="http://thememaker.site/">Web Version</a>
+          <a href="https://github.com/danielpetrica/Telegram-Desktop-themes-maker">Github</a>
+          <h5>Dev's Links:</h5>
+          <a href="http://danielpetrica.pw/">Website</a>
+          <a href="https://github.com/danielpetrica">Github Profile</a>
+          <a href="https://twitter.com/daniel_petrica">Twitter</a>
+          <a href="https://www.instagram.com/danielpetrica.pw/">Instagram</a>
+          <a href="https://www.linkedin.com/in/petricadaniel/">Linkedin</a>
+      </div>
+      <div class="content">
+
+        <nav class="fixed">
+          <ul>
+            <li>
+              <a class="logo" href="javascript:void(0);" onclick="meshki.openNav()">
+                <i class="fa fa-bars" aria-hidden="true">#</i>Menu</a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="simple_start.html">Simple Generator</a>
+              <a href="expert_start.php">Expert Generator</a>
+              <a href="https://github.com/danielpetrica/Telegram-Desktop-themes-maker">Github</a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="javascript:void(0)" class="nav-dropdown-button" >Dev's LInks</a>
+              <div class="nav-dropdown-content">
+                <a href="http://danielpetrica.pw/">Website</a>
+                <a href="https://github.com/danielpetrica">Github Profile</a>
+                <a href="https://twitter.com/daniel_petrica">Twitter</a>
+                <a href="https://www.instagram.com/danielpetrica.pw/">Instagram</a>
+                <a href="https://www.linkedin.com/in/petricadaniel/">Linkedin</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+      <h1 style="padding-top: 300px">Select the collors from the forms down here </h1>
+      <br><br>
+
+      <table align="left">
+              <form  method="post" action="action_page.php">
+              <tr>
+                <th>  Select your theme name, please no space or special characters (use _ for spaces):</th>
+                <th> <input  type="text"  name="name" value="type_a_name"><br>
+                </th>
+              </tr>
+              <tr>
+                <td> Select your Main color:</td>
+                <td><input  type="color"  name="color_dark" value="#999999"><br></td>
+              </tr>
+              <tr>
+                <td>Select your Secondary color:</td>
+                <td><input  type="color" name="color_gray" value="#2f2f2f"><br></td>
+              </tr>
+              <tr>
+                <td>
+                  Select your third color
+                  (Active button background (+ checkboxes background)
+                  Active input field line color (normal)
+                  Currently selected button background)
+                </td>
+                <td><input  type="color"  name="color_green_dark" value="#008c00"></td>
+              </tr>
+              <tr>
+                <td> Select a color for Primary button background color (and active chat) - Press and hold  :</td>
+                <td><input type="color" name="color_green_ripple_active" value="#15cd7d"></td>
+              </tr>
+              <tr>
+                <td> Select a color for (Icons color on hover) :</td>
+                <td><input type="color" name="color_green_light" value="#025618"><br></td>
+              </tr>
+              <tr>
+                <td> Select your Text Color:
+                </td>
+                <td> <input type="color" name="textcolor" value="#ffffff">
+                </td>
+              </tr>
+              <tr>
+                <td>Select the color for outgoing Messages bubble </td>
+                <td><input type="color" name="msgOutBg" value="#09f74b"></td>
+              </tr>
+              <tr>
+                <td>Select the color for incoming Messages bubble </td>
+                <td><input type="color" name="msgInBg" value="#09eaf7"></td>
+              </tr>
+              <tr>
+                <td>Select the color for incoming files bubble </td>
+                <td><input type="color" name="msgFile1Bg" value="#dbd908"></td>
+              </tr>
+              <tr>
+                  <td>Select the backgound for Active Chat</td>
+                  <td><input type="color" name="dialogsBgActive" value="#ffb800"></td>
+                </tr>
+                <tr>
+                  <td>Select the backgound for The main menu</td>
+                  <td><input type="color" name="menuBg" value="#ffb800"></td>
+                </tr>
+
+              <tr>
+                  <td>Please inert the Link to the background image (only .jpg please!) </td>
+                  <td><input type="link" name="img_input_image" value="https://static.pexels.com/photos/8703/sky-space-moon-outdoors.jpg"></td>
+              </tr>
+              <tr>
+                <th>To <b>Create </b> your theme with the above colors:
+                </th>
+                <th> <input id="submit" type="submit"></h3>
+                </th>
+              </tr>
+
+  <input type="submit">
+</form>
+</table>
+</div>
+
+  </body>
+</html>

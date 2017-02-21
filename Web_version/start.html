@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Start Page</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meshki/1.4.2/meshki.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/meshki/1.4.2/meshki.min.js"></script>
+
+  </head>
+  <body>
+      <!--script src="jscolor.js"></script> had some issues with jscolors-->
+
+      <h1>Select the collors from the forms down here </h1>
+      <br><br><br><br>
+
+      <table align="left">
+              <form  method="post" action="app/action_page.php">
+              <tr>
+                <th>  Select your theme name, please no space or special characters (use _ for spaces):</th>
+                <th> <input  type="text"  name="name" value="type_a_name"><br>
+                </th>
+              </tr>
+              <tr>
+                <td> Select your Main color:</td>
+                <td><input  type="color"  name="color_dark" value="#999999"><br></td>
+              </tr>
+              <tr>
+                <td>Select your Secondary color:</td>
+                <td><input  type="color" name="color_gray" value="#2f2f2f"><br></td>
+              </tr>
+              <tr>
+                <td>
+                  Select your third color
+                  (Active button background (+ checkboxes background)
+                  Active input field line color (normal)
+                  Currently selected button background)
+                </td>
+                <td><input  type="color"  name="color_green_dark" value="#008c00"></td>
+              </tr>
+              <tr>
+                <td> Select a color for Primary button background color (and active chat) - Press and hold  :</td>
+                <td><input type="color" name="color_green_ripple_active" value="#15cd7d"></td>
+              </tr>
+              <tr>
+                <td> Select a color for (Icons color on hover) :</td>
+                <td><input type="color" name="color_green_light" value="#025618"><br></td>
+              </tr>
+              <tr>
+                <td> Select your Text Color:
+                </td>
+                <td> <input type="color" name="textcolor" value="#ffffff">
+                </td>
+              </tr>
+              <tr>
+                <td>Select the color for outgoing Messages bubble </td>
+                <td><input type="color" name="msgOutBg" value="#09f74b"></td>
+              </tr>
+              <tr>
+                <td>Select the color for incoming Messages bubble </td>
+                <td><input type="color" name="msgInBg" value="#09eaf7"></td>
+              </tr>
+              <tr>
+                <td>Select the color for incoming files bubble </td>
+                <td><input type="color" name="msgFile1Bg" value="#dbd908"></td>
+              </tr>
+              <tr>
+                  <td>Select the backgound for Active Chat</td>
+                  <td><input type="color" name="dialogsBgActive" value="#ffb800"></td>
+                </tr>
+                <tr>
+                  <td>Select the backgound for The main menu</td>
+                  <td><input type="color" name="menuBg" value="#ffb800"></td>
+                </tr>
+
+              <tr>
+                  <td>Please inert the Link to the background image (only .jpg please!) </td>
+                  <td><input type="link" name="img_input_image" value="https://static.pexels.com/photos/8703/sky-space-moon-outdoors.jpg"></td>
+              </tr>
+              <tr>
+                <th>To <b>Create </b> your theme with the above colors:
+                </th>
+                <th> <input id="submit" type="submit"></h3>
+                </th>
+              </tr>
+
+  <input type="submit">
+</form>
+</table>
+  </body>
+</html>
