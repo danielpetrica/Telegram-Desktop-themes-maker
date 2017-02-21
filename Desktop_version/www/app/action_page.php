@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="description" content="From this page you can download your theme">
     <title>Result Theme</title>
+    <!-- Make the page Mobile-Friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>That's your theme:
     <?php

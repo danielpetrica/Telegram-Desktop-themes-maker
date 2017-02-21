@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="description" content="From this page you can download your theme">
     <title>Result Theme</title>
+    <!-- Make the page Mobile-Friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>That's your theme:
     <?php
@@ -85,13 +87,15 @@
         </form>
       </tr>
     </table>
-     <!--<p>
+    <!--
+    <p>
        Would you like to send it to <a href="https://t.me/themeslist">https://t.me/themeslist</a> instead? if yes click the following link.
        <form action="bot_send.php" method="post">
           <input type="hidden" name="theme_link" value="<?php echo $filelink;?>">
           <input type="hidden" name="theme_name" value="<?php echo $file_name;?>">
           <button type="submit" value="submit"> Submit to Telegram channel</button>
        </form>
-     </p>-->
+     </p>
+   -->
   </body>
 </html>

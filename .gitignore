@@ -5,3 +5,7 @@ Desktop_version/app/themes/*
 Desktop_version/app/exp_themes/*
 temp_files/*
 *background.jpg
+*config.php
+Desktop_version/webcache/*
+Desktop_version/webcache/GPUCache/*
+*.log
