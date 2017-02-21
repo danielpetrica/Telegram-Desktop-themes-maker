@@ -111,3 +111,117 @@
 - 13:40:26.125 DEBUG: OnBrowserDestroyed()
 - 13:40:27.484 INFO: Ended application
 - 13:40:27.484 INFO: --------------------------------------------------------
+- 19:04:41.172 INFO: --------------------------------------------------------
+- 19:04:41.187 INFO: Started application
+- 19:04:41.187 INFO: Logging to: E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\debug.log
+- 19:04:41.187 INFO: Log level = DEBUG4
+- 19:04:41.187 INFO: Starting Mongoose 3.9c web server
+- 19:04:41.187 INFO: WWW directory: E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\www
+- 19:04:41.187 INFO: Index files: index.html,index.php
+- 19:04:41.187 INFO: CGI interpreter: E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\php\php-cgi.exe
+- 19:04:41.187 INFO: CGI pattern: **.php$
+- 19:04:41.187 INFO: Hide files patterns: 
+- 19:04:41.187 INFO: CGI environment variables set: TMP=C:\Users\apetr\AppData\Local\Temp\,TEMP=C:\Users\apetr\AppData\Local\Temp\,TMPDIR=C:\Users\apetr\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 19:04:41.203 INFO: Web server url: http://127.0.0.1:55342/
+- 19:04:41.203 INFO: remote_debugging_port = 64878
+- 19:04:42.391 DEBUG: Command line string for the browser process: "E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\ThemeMaker_Desktop.exe" --no-sandbox --lang=en-US --log-file="E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\debug.log" --remote-debugging-port=64878
+- 19:04:42.000 DEBUG: Command line string for the gpu-process process: "E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\ThemeMaker_Desktop.exe" --type=gpu-process --channel="8972.0.2031597680\1036220843" --no-sandbox --lang=en-US --log-file="E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\debug.log" /prefetch:822062411
+- 19:04:43.641 DEBUG: App::OnContextInitialized()
+- 19:04:43.641 DEBUG: Window max width/height = 1286/690
+- 19:04:43.641 DEBUG: GetBrowserWindow(): not found, hwnd = 133746
+- 19:04:43.641 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 19:04:43.641 DEBUG: BrowserWindow::CreateBrowserControl()
+- 19:04:43.641 DEBUG: StoreBrowserWindow(): hwnd = 133746
+- 19:04:43.875 DEBUG: ClientHandler::OnAfterCreated()
+- 19:04:43.875 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 19:04:43.922 DEBUG: OnLoadingStateChange: loading=1, url=
+- 19:04:43.000 DEBUG: Command line string for the renderer process: "E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\ThemeMaker_Desktop.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="E:\E\server\htdocs\Nuova cartella\danielpetrica\Telegram-Desktop-themes-maker\Desktop_version\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="8972.1.843015427\52713333" /prefetch:673131151
+- 19:04:44.672 DEBUG: OnBrowserCreated()
+- 19:04:45.922 INFO: GET 200 /
+- 19:04:45.203 DEBUG: OnContextCreated()
+- 19:04:46.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/
+- 19:04:51.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/
+- 19:04:51.828 INFO: GET 200 /app/simple_start.html
+- 19:04:51.922 DEBUG: OnContextCreated()
+- 19:04:51.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/simple_start.html
+- 19:04:58.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/app/simple_start.html
+- 19:04:59.984 DEBUG: OnContextCreated()
+[0221/190459:INFO:CONSOLE(145)] "The specified value "#00000018" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (145)
+[0221/190459:INFO:CONSOLE(151)] "The specified value "#0000003c" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (151)
+[0221/190459:INFO:CONSOLE(355)] "The specified value "#00000053" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (355)
+[0221/190459:INFO:CONSOLE(361)] "The specified value "#0000007a" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (361)
+[0221/190459:INFO:CONSOLE(367)] "The specified value "#0000001a" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (367)
+[0221/190459:INFO:CONSOLE(373)] "The specified value "#0000002c" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (373)
+[0221/190459:INFO:CONSOLE(397)] "The specified value "#00000056" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (397)
+[0221/190459:INFO:CONSOLE(469)] "The specified value "#00000003" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (469)
+- 19:04:59.922 INFO: GET 200 /app/expert_start.php
+[0221/190459:INFO:CONSOLE(619)] "The specified value "#ffffff01" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (619)
+[0221/190459:INFO:CONSOLE(625)] "The specified value "#0000007f" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (625)
+[0221/190459:INFO:CONSOLE(745)] "The specified value "#ffffff7f" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (745)
+[0221/190459:INFO:CONSOLE(793)] "The specified value "#5ec6ff69" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (793)
+[0221/190459:INFO:CONSOLE(1051)] "The specified value "#ffffff99" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1051)
+[0221/190459:INFO:CONSOLE(1117)] "The specified value "#f7f7f7 | windowBg" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1117)
+[0221/190459:INFO:CONSOLE(1129)] "The specified value "#fffffff2 | emojiPanBg" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1129)
+[0221/190459:INFO:CONSOLE(1135)] "The specified value "#000000cc" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1135)
+[0221/190459:INFO:CONSOLE(1147)] "The specified value "#ffffffb0" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1147)
+[0221/190459:INFO:CONSOLE(1219)] "The specified value "#ffffffc8" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1219)
+[0221/190459:INFO:CONSOLE(1243)] "The specified value "#0000004c" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1243)
+[0221/190459:INFO:CONSOLE(1357)] "The specified value "#517c417a" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1357)
+[0221/190459:INFO:CONSOLE(1363)] "The specified value "#517c41bc" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1363)
+[0221/190459:INFO:CONSOLE(1369)] "The specified value "#517c414c" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1369)
+[0221/190459:INFO:CONSOLE(1375)] "The specified value "#517c416b" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1375)
+[0221/190459:INFO:CONSOLE(1405)] "The specified value "#358cd44c" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1405)
+[0221/190459:INFO:CONSOLE(1411)] "The specified value "#358cd47f" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1411)
+[0221/190459:INFO:CONSOLE(1441)] "The specified value "#748ea229" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1441)
+[0221/190459:INFO:CONSOLE(1447)] "The specified value "#548dbb29" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1447)
+[0221/190459:INFO:CONSOLE(1453)] "The specified value "#3ac34740" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1453)
+[0221/190459:INFO:CONSOLE(1459)] "The specified value "#37a78e40" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1459)
+[0221/190459:INFO:CONSOLE(1495)] "The specified value "#517c417f" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1495)
+[0221/190459:INFO:CONSOLE(1501)] "The specified value "#96b38ba2" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1501)
+[0221/190459:INFO:CONSOLE(1555)] "The specified value "#00000054" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1555)
+[0221/190459:INFO:CONSOLE(1561)] "The specified value "#00000074" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1561)
+[0221/190459:INFO:CONSOLE(1567)] "The specified value "#1c4a7187" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1567)
+[0221/190459:INFO:CONSOLE(1849)] "The specified value "#ffffff20" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1849)
+[0221/190459:INFO:CONSOLE(1861)] "The specified value "#00000020" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1861)
+[0221/190459:INFO:CONSOLE(1891)] "The specified value "#e83131c8" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1891)
+[0221/190459:INFO:CONSOLE(1903)] "The specified value "#0000007f" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1903)
+[0221/190459:INFO:CONSOLE(1915)] "The specified value "#000000b2" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1915)
+[0221/190459:INFO:CONSOLE(1969)] "The specified value "#00000040" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (1969)
+[0221/190459:INFO:CONSOLE(2065)] "The specified value "#00000040" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (2065)
+[0221/190459:INFO:CONSOLE(2083)] "The specified value "#40ace333" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (2083)
+[0221/190459:INFO:CONSOLE(2263)] "The specified value "#222222eb" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (2263)
+[0221/190459:INFO:CONSOLE(2275)] "The specified value "#0000003c" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (2275)
+[0221/190459:INFO:CONSOLE(2287)] "The specified value "#11111180" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (2287)
+[0221/190459:INFO:CONSOLE(2341)] "The specified value "#ffffffc7" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers.", source: http://127.0.0.1:55342/app/expert_start.php (2341)
+- 19:04:59.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/expert_start.php
+- 19:10:59.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/app/expert_start.php
+- 19:11:05.875 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:55342/app/action_expert.php
+- 19:11:05.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/expert_start.php
+- 19:11:05.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/app/expert_start.php
+- 19:11:12.750 DEBUG: OnContextCreated()
+- 19:11:12.672 INFO: POST 200 /app/action_expert.php
+- 19:11:12.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/action_expert.php
+- 19:11:13.359 INFO: POST 200 /app/action_expert.php
+- 19:11:19.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/app/action_expert.php
+- 19:11:21.547 DEBUG: OnContextCreated()
+- 19:11:21.469 INFO: POST 200 /app/bot_send.php
+- 19:11:21.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/bot_send.php
+- 19:12:23.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/app/bot_send.php
+- 19:12:23.500 DEBUG: OnContextCreated()
+- 19:12:23.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/action_expert.php
+- 19:12:25.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55342/app/action_expert.php
+- 19:12:27.297 DEBUG: OnContextCreated()
+- 19:12:27.219 INFO: POST 200 /app/bot_send.php
+- 19:12:27.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55342/app/bot_send.php
+- 19:12:32.297 DEBUG: WM_DESTROY
+- 19:12:32.297 DEBUG: RemoveBrowserWindow(): hwnd = 133746
+- 19:12:32.297 INFO: Stopping Mongoose web server
+- 19:12:32.312 DEBUG: Mongoose webserver stopped immediately
+- 19:12:32.312 DEBUG: OnBeforeClose() hwnd=133738
+- 19:12:32.312 DEBUG: RemoveBrowserWindow(): hwnd = 133738
+- 19:12:32.312 DEBUG: GetBrowserWindow(): not found, hwnd = 133738
+- 19:12:32.312 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 19:12:32.312 DEBUG: Calling CefQuitMessageLoop()
+- 19:12:33.594 DEBUG: OnBrowserDestroyed()
+- 19:12:33.906 INFO: Ended application
+- 19:12:33.906 INFO: --------------------------------------------------------
