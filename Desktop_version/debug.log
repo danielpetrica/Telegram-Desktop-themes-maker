@@ -1,0 +1,113 @@
+- 13:38:00.093 INFO: --------------------------------------------------------
+- 13:38:00.093 INFO: Started application
+- 13:38:00.093 INFO: Logging to: E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 13:38:00.093 INFO: Log level = DEBUG4
+- 13:38:00.093 INFO: Starting Mongoose 3.9c web server
+- 13:38:00.093 INFO: WWW directory: E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www
+- 13:38:00.093 INFO: Index files: index.html,index.php
+- 13:38:00.093 INFO: CGI interpreter: E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 13:38:00.093 INFO: CGI pattern: **.php$
+- 13:38:00.093 INFO: Hide files patterns: 
+- 13:38:00.093 INFO: CGI environment variables set: TMP=C:\Users\apetr\AppData\Local\Temp\,TEMP=C:\Users\apetr\AppData\Local\Temp\,TMPDIR=C:\Users\apetr\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 13:38:00.093 INFO: Web server url: http://127.0.0.1:53822/
+- 13:38:00.093 INFO: remote_debugging_port = 59469
+- 13:38:00.093 DEBUG: Command line string for the browser process: "E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=59469
+- 13:38:00.187 DEBUG: App::OnContextInitialized()
+- 13:38:00.187 DEBUG: Window max width/height = 1286/690
+- 13:38:00.187 DEBUG: GetBrowserWindow(): not found, hwnd = 1181218
+- 13:38:00.187 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:38:00.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:38:00.203 DEBUG: StoreBrowserWindow(): hwnd = 1181218
+- 13:38:00.015 DEBUG: Command line string for the gpu-process process: "E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="14520.0.2092126651\2057014940" --no-sandbox --lang=en-US --log-file="E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x1616 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4531 --lang=en-US --log-file="E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:822062411
+- 13:38:00.250 DEBUG: ClientHandler::OnAfterCreated()
+- 13:38:00.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:38:00.265 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:38:00.000 DEBUG: Command line string for the renderer process: "E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="14520.1.756061221\1589823180" /prefetch:673131151
+- 13:38:00.031 DEBUG: OnBrowserCreated()
+- 13:38:02.250 INFO: GET 200 /
+- 13:38:03.484 INFO: GET 200 /style.css
+- 13:38:03.219 DEBUG: OnContextCreated()
+- 13:38:03.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/
+- 13:38:14.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/
+- 13:38:14.062 DEBUG: OnContextCreated()
+- 13:38:14.359 INFO: GET 304 /style.css
+- 13:38:14.406 INFO: GET 200 /popup.php
+- 13:38:14.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/popup.php
+- 13:38:18.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/popup.php
+- 13:38:18.281 DEBUG: OnContextCreated()
+- 13:38:18.562 INFO: GET 304 /style.css
+- 13:38:18.609 INFO: GET 200 /index.php
+- 13:38:18.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/index.php
+- 13:38:23.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/index.php
+- 13:38:24.172 DEBUG: OnContextCreated()
+- 13:38:24.468 INFO: GET 304 /style.css
+- 13:38:24.515 INFO: GET 200 /upload.php
+- 13:38:24.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/upload.php
+- 13:38:30.000 DEBUG: Command line string for the utility process: "E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --type=utility --channel="14520.2.847235684\386445312" --lang=en-US --no-sandbox --no-sandbox --lang=en-US --log-file="E:\E\Personal\work\PhpDesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" /prefetch:-645351001
+- 13:38:36.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/upload.php
+- 13:38:36.687 DEBUG: OnContextCreated()
+- 13:38:36.968 INFO: GET 304 /style.css
+- 13:38:36.015 INFO: POST 200 /upload.php
+- 13:38:36.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/upload.php
+- 13:38:54.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/upload.php
+- 13:38:54.500 DEBUG: OnContextCreated()
+- 13:38:54.781 INFO: GET 304 /style.css
+- 13:38:54.828 INFO: GET 200 /index.php
+- 13:38:54.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/index.php
+- 13:38:56.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/index.php
+- 13:38:56.078 DEBUG: OnContextCreated()
+- 13:38:56.375 INFO: GET 200 /20160201_204639.jpg
+- 13:38:56.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/20160201_204639.jpg
+- 13:39:00.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/20160201_204639.jpg
+- 13:39:00.500 DEBUG: OnContextCreated()
+- 13:39:00.796 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/index.php
+- 13:39:04.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/index.php
+- 13:39:04.344 DEBUG: OnContextCreated()
+- 13:39:04.625 INFO: GET 304 /style.css
+- 13:39:04.687 INFO: GET 304 /style.css
+- 13:39:04.687 INFO: GET 200 /iframe.php
+- 13:39:04.406 DEBUG: OnContextCreated()
+- 13:39:04.734 INFO: GET 200 /index.php
+- 13:39:04.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/iframe.php
+- 13:39:14.921 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/iframe.php
+- 13:39:14.687 DEBUG: OnContextCreated()
+- 13:39:14.968 INFO: GET 304 /style.css
+- 13:39:14.031 INFO: GET 200 /index.php
+- 13:39:14.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/index.php
+- 13:39:21.671 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/index.php
+- 13:39:21.437 DEBUG: OnContextCreated()
+- 13:39:21.718 INFO: GET 304 /style.css
+- 13:39:21.781 INFO: GET 200 /pretty-urls.php
+- 13:39:21.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/pretty-urls.php
+- 13:39:42.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/pretty-urls.php
+- 13:39:42.906 DEBUG: OnContextCreated()
+- 13:39:42.187 INFO: GET 304 /style.css
+- 13:39:42.234 INFO: POST 200 /company.html
+- 13:39:42.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/company.html
+- 13:40:06.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/company.html
+- 13:40:06.297 DEBUG: OnContextCreated()
+- 13:40:06.578 INFO: GET 304 /style.css
+- 13:40:06.625 INFO: GET 200 /index.php
+- 13:40:06.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/index.php
+- 13:40:08.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/index.php
+- 13:40:08.906 DEBUG: OnContextCreated()
+- 13:40:08.203 INFO: GET 304 /style.css
+- 13:40:08.250 INFO: GET 200 /env-variables.php
+- 13:40:08.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/env-variables.php
+- 13:40:22.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53822/env-variables.php
+- 13:40:22.828 DEBUG: OnContextCreated()
+- 13:40:22.109 INFO: GET 304 /style.css
+- 13:40:22.156 INFO: GET 200 /index.php
+- 13:40:22.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53822/index.php
+- 13:40:26.375 DEBUG: WM_DESTROY
+- 13:40:26.375 DEBUG: RemoveBrowserWindow(): hwnd = 1181218
+- 13:40:26.375 INFO: Stopping Mongoose web server
+- 13:40:26.375 DEBUG: Mongoose webserver stopped immediately
+- 13:40:26.390 DEBUG: OnBeforeClose() hwnd=2229204
+- 13:40:26.390 DEBUG: RemoveBrowserWindow(): hwnd = 2229204
+- 13:40:26.390 DEBUG: GetBrowserWindow(): not found, hwnd = 2229204
+- 13:40:26.390 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:40:26.390 DEBUG: Calling CefQuitMessageLoop()
+- 13:40:26.125 DEBUG: OnBrowserDestroyed()
+- 13:40:27.484 INFO: Ended application
+- 13:40:27.484 INFO: --------------------------------------------------------
