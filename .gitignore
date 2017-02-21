@@ -1,3 +1,4 @@
 *.tdesktop-theme
-app/themes/*
-app/exp_themes/*
+*/themes
+*/exp_themes
+Web_version/app/themes/type_a_name/background.jpg
