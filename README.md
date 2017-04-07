@@ -2,16 +2,16 @@
 
 [![Code Triagers Badge](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker/badges/users.svg)](https://www.codetriage.com/danielpetrica/telegram-desktop-themes-maker)  [![GitHub stars](https://img.shields.io/github/stars/danielpetrica/Telegram-Desktop-themes-maker.svg?style=flat-square)](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/danielpetrica/Telegram-Desktop-themes-maker/master/LICENSE)  [![Twitter](https://img.shields.io/twitter/url/https/github.com/danielpetrica/Telegram-Desktop-themes-maker.svg??style=social&label=Follow&maxAge=2592000?style=flat-squaree)](https://twitter.com/daniel_petrica)
 
-### A first try on creating a Useful theme maker for [Telegram.org](https://telegram.org/).
+### A first try on creating a useful theme maker for [Telegram.org](https://telegram.org/).
 # Help, suggestions and questions are welcome.
 
-## Visit The wiki for more informations: [WIki](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki)
+## Visit the wiki for more information: [Wiki](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki)
 
-We have a channel on Telegram for Updates, and comunicattions [thememaker](https://t.me/thememaker) 
+We have a channel on Telegram for updates and communication: [@thememaker](https://t.me/thememaker) 
 
-We have a working website at: [http://thememaker.site/](http://thememaker.site/) It's free to use for everyone!
+We have a working website at: [http://thememaker.site/](http://thememaker.site/). It is free to use for everyone!
 
-#### For Installing instructions visit the wiki page [wiki: Intalling](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Installing)
+#### For installing instructions visit the wiki page [wiki: Installing](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Installing)
 #### For the roadmap visit the wiki page [wiki: Roadmap](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Roadmap)
 
 
