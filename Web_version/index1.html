@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telegram Theme Maker</title>
+    <script src="https://use.fontawesome.com/85b08b3f77.js"></script>
 
     <style media="screen">
               .container {
@@ -33,6 +34,17 @@
           .cell p{
             display: block;
             word-wrap: break-word;
+          }
+          .table-row {
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-wrap: no-wrap;
+            -webkit-flex-wrap: no-wrap;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
           }
 
           @media screen and (min-width: 600px) {
@@ -83,10 +95,31 @@
     <main class="Site-content">
       <div class="container">
         <div class="grid">
+          <div>
+            <h3>The first Theme Maker for Telegram.</h3>
+             This tool is the first theme Maker for Telgram Desktop. <br />
+             We choosed to adopt a differnt way of creatting themes which allow every user wich have an acces to the internet (or not, got to github to discover our desktop version). <br />
+             There are two versions wich you can use to create your theme. <br>
 
-          </div>
-          <div class="cell">
-          <!--Closing "cell" -->
+               <div class="table-row">
+                 <h5>The first is a Fast (also called simple over internet), wich allows you to choose the manin colors,  a remote jpg image (other formats will corupt your theme, sorry for this) and a name. You can then download it in two versions. Just colors or colors + image. Send them to the chat with yourself and apply it. The first is a Fast (also called simple over internet), wich allows you to choose the manin colors,  a remote jpg image (other formats will corupt your theme, sorry for this) and a name. You can then download it in two versions. Just colors or colors + image. Send them to the chat with yourself and apply it. </h5>  <br/>
+                 <a href="./start.html">
+                  <i class="fa fa-link" aria-hidden="true">"Fast" version </a>
+
+               </div>
+               <div class="table-row">
+                 <div class="grid">
+                   <div class="cell">
+                     <h5> The second version is more Complete and allow you to change every single colors, (That's perfect for perfectionists). This may be slow but allow for better control and personalized results.</h5>
+                   </div>
+                   <div class="cell">
+                      <a href="./app/expert_start.php" type="button" name="button"> <i class="fa fa-link" aria-hidden="true">"Complete" version</i></a>
+
+                   </div>
+                 </div>
+               </div>
+
+
 
           </div>
 
