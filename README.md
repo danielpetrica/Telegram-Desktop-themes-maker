@@ -14,6 +14,10 @@ We have a working website at: [http://thememaker.site/](http://thememaker.site/)
 #### For installing instructions visit the wiki page [wiki: Installing](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Installing)
 #### For the roadmap visit the wiki page [wiki: Roadmap](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/wiki/Roadmap)
 
+## Versions: 
+The working has been (or will be) split in some repositories:
+- The Web version  (Telegram-Theme-Maker_web)[https://github.com/danielpetrica/Telegram-Theme-Maker_web]
+- The Desktop Version (to be done)[#]
 
 ## Releases
 - [x] *v0.01* A first release is out! I can't believe it! Try it : [0.01 Alpha Release](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/releases/tag/0.01 "0.01 First Alpha Release")
@@ -21,5 +25,5 @@ We have a working website at: [http://thememaker.site/](http://thememaker.site/)
 - [x] *v0.15* Some security updates (no more path injection risk).
 - [x] *v0.2* Zip compression, background upload, more colors.
 - [x] *v0.25* Expert mode ready. We support all elements!
-- [ ] *v0.3*  Colors list
-- [ ] *v0.4*  Theme Preview.
+- [ ]   Colors list
+- [ ]   Theme Preview.
