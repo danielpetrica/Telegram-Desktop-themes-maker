@@ -16,8 +16,8 @@ We have a working website at: [http://thememaker.site/](http://thememaker.site/)
 
 ## Versions: 
 The working has been (or will be) split in some repositories:
-- The Web version  (Telegram-Theme-Maker_web)[https://github.com/danielpetrica/Telegram-Theme-Maker_web]
-- The Desktop Version (to be done)[#]
+- The Web version  [Telegram-Theme-Maker_web][https://github.com/danielpetrica/Telegram-Theme-Maker_web]
+- The Desktop Version [to be done][#]
 
 ## Releases
 - [x] *v0.01* A first release is out! I can't believe it! Try it : [0.01 Alpha Release](https://github.com/danielpetrica/Telegram-Desktop-themes-maker/releases/tag/0.01 "0.01 First Alpha Release")
